@@ -212,7 +212,7 @@ Email Consent: ${data.agreeEmail ? "Yes" : "No"}
       from: `"GNM Logistics" <${process.env.GMAIL_USER}>`,
       to: data.email,
 
-      subject: "We've Received Your Quote Request",
+      subject: "New Rate Quote Request - GNM Logistics",
 
       html: `
         <h2>Thank you!</h2>
